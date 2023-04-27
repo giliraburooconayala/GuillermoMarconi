@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgba(24, 23, 23, 0.438);
+}
+
+#Led{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: px;
+}
+
+#poso{
+    min-height: px;
+    margin: 30px;
+    text-align: center;
+    font-family: Verdana;
+
+}
+
+#PEX{
+    width: 1200px;
+    margin: auto;
+}
+
+header{
+    background: rgb(150, 145, 149);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    line-height: 100px;
+    font-family: Tahoma;
+    color: rgb(255, 255, 255);
+    border: 3px dashed rgb(208, 215, 240);
+}
+
+nav{
+    background: rgb(255, 255, 255);
+    height: 70px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul li{
+    text-align: center;
+    display:inline-block;
+    list-style: none;
+    font-weight: normal;
+    margin-top: 15px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#Desa{
+    float: right;
+    width: calc(70% - 50px);
+    min-height: 700px;
+    text-align: center;
+    padding: 15px;
+    background: rgb(189, 44, 44);
+}
+
+aside{
+    float: left;
+    width: calc(30% - 50px);
+    min-height: 400px;
+    background: rgb(173, 58, 77);
+    margin-left: 2em;
+    padding: 10px;
+}
+
+footer{
+    background: white;
+    color: black;
+    height: 30px;
+    width: auto;
+    line-height: 25px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+
+
+
+h3{
+    color: rgb(255, 255, 255);
+}
+
+
+#rost{
+    background: rgb(0, 0, 0);
+    min-height: 800px;
+}
+
+table{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial;
+    background-image: linear-gradient(to left, rgb(220, 57, 235),rgb(78, 5, 39));
+    box-shadow: 5px 5px 5px rgb(2, 17, 65);
+}
+
+th{
+    background-color: rgb(255, 255, 255);
+    color: rgb(141, 134, 35);
+}
+
+td,th{
+    border: 2px solid rgb(38, 216, 52);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
